@@ -7,14 +7,12 @@ console.log(firstName, lastName);
 //Zadatak-2
 //var x = z === 2 ? y : 5;
 
-var x = z;
-var y = 0;
-var z = 2;
+var x;
 
-if (x === 2 && z === 2) {
-    console.log(y);
+if (z === 2) {
+    x = y;
 } else {
-    console.log(5);
+    x = 5;
 }
 
 //Zadatak-3
